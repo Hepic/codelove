@@ -1,0 +1,131 @@
+div#bar
+{
+	position: fixed;
+	width: 100%;
+	
+	background-color: black;
+	
+	margin-top: 15px;
+}
+
+
+ul#nav
+{
+	position: relative;	
+	left: 30%;
+	
+	color: white;
+	font-size: 17px;
+	
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav li 
+{
+	position: relative;
+	margin: 0px 5px;
+	padding: 12px 20px 12px;
+	
+	float: left;
+	list-style: none;
+}
+
+
+#nav a 
+{
+	color: white;
+	text-decoration: none;
+	
+	display: block;
+	border-radius: 1.6em;
+}
+
+
+#nav #fir
+{
+	color: #CC9933;
+}
+
+
+#nav li:hover a
+{
+	color: #CC9933;
+	transition-duration: 0.5s;
+}
+
+
+#nav ul 
+{
+	display: none;
+	
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	
+	margin: 0;
+	padding: 0;
+	width: 125px;
+	
+	background-color: black;
+	
+	border: solid 1px #b4b4b4;
+	border-radius: 10px;
+	box-shadow: 0px 1px 1px #202020;
+	
+	text-align: center;
+}
+
+
+#nav li:hover > ul 
+{
+	display: block;
+}
+
+
+#nav ul li 
+{
+	float: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+#nav ul a 
+{
+	font-weight: normal;
+	text-shadow: 0px 1px 1px #202020;
+}
+
+
+#nav ul li:hover a, #nav li:hover li a 
+{
+	background: none;
+	color: white;
+	box-shadow: none;	
+}
+
+
+#nav ul a:hover 
+{
+	background: #CC9966 !important;
+	border-radius: 0;
+	
+	color: #FFFFFF !important;
+	text-shadow: 0px 1px 1px #202020;
+}
+
+
+#nav ul li:first-child > a 
+{
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+}
+
+
+#nav ul li:last-child > a 
+{
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
