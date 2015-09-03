@@ -1,24 +1,29 @@
 div#container
 {
 	position: absolute;
-	top: 119px;
-	left: 520px;
+	top: 15%;
+	left: 28%;
 }
 
 
 #start_button
 {
-	position: absolute;
-	left: 268px;
-	top: 67px;
+	position: relative;
+	left: 43%;
+	top: 15px;
+	
 	padding: 5px;
+	
 	font-size: 35px;
 	font-family: Georgia, serif;
+	
 	color: white;
 	background-color: #339933;
 	background: -webkit-gradient(linear, left top, left bottom, from(#339933), to(#00CC33));
+	
 	border-radius: 7px;
 	box-shadow: black 0 1px 0;
 	text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+	
 	cursor: pointer;
 }
