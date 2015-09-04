@@ -27,3 +27,59 @@ div#container
 	
 	cursor: pointer;
 }
+
+
+#info
+{
+	position: absolute;
+	left: 5%;
+	margin-top: 70px;
+	padding: 10px;
+	
+	width: 90%;
+	display: none;
+	
+    background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#f3f3f3), to(#fff), color-stop(.1,#f3f3f3));
+
+	border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom-right-radius: 60px 60px;
+    box-shadow: -1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+#info:before
+{
+	position: absolute;
+    bottom:0;
+    right:0;
+	
+    width: 25px;
+    height: 20px;
+
+	content:'';    
+     
+    border-bottom-right-radius: 30px;
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.3);
+    transform: rotate(-20deg) skew(-40deg,-3deg) translate(-13px,-13px);
+}
+
+
+#info:after
+{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+	
+	width: 100px;
+    height: 100px;
+	
+    content: '';
+    z-index: -1;
+   
+    background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    box-shadow: 20px 20px 8px rgba(0, 0, 0, 0.2);
+    transform: rotate(0deg) skew(20deg) translate(-45px,-20px);
+}
+
