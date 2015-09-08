@@ -1,0 +1,27 @@
+div#admin_problem_explanation
+{
+	position: absolute;
+	top: 2%;
+	left: 30%;
+	
+	width: 70%;
+}
+
+
+input[type='text']
+{
+	display: block;
+	margin-bottom: 30px;
+}
+
+
+textarea
+{
+	width: 50%;
+	height: 200px;
+	
+	border: 1px solid #888;	
+	display: block;
+	
+	margin-bottom: 30px;
+}

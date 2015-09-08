@@ -38,6 +38,7 @@ div#container
 	
 	width: 90%;
 	display: none;
+	font-size: 18px;
 	
     background: -webkit-gradient(linear, 0% 20%, 0% 92%, from(#f3f3f3), to(#fff), color-stop(.1,#f3f3f3));
 
@@ -83,3 +84,9 @@ div#container
     transform: rotate(0deg) skew(20deg) translate(-45px,-20px);
 }
 
+
+#info ul li a
+{
+	color: #585858;
+	text-decoration: none;
+}
