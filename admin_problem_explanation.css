@@ -25,3 +25,20 @@ textarea
 	
 	margin-bottom: 30px;
 }
+
+
+label
+{
+	color: #99CCFF;
+}
+
+
+input[type='submit']
+{
+	margin-bottom: 20px;
+	margin-left: 20%;
+	font-size: 20px;
+	
+	color: #99CCFF;
+	background-color: #FF6633;
+}

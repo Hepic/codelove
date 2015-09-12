@@ -4,28 +4,16 @@
 	<head>
 		<title>CodeLove</title>
 		
-		<link rel='stylesheet' type='text/css' href='src-css/background.css' />
-		<link rel='stylesheet' type='text/css' href='src-css/nav_bar.css' />
-		<link rel='stylesheet' type='text/css' href='src-css/container.css' />
+		<link rel='stylesheet' type='text/css' href='background.css' />
+		<link rel='stylesheet' type='text/css' href='nav_bar.css' />
+		<link rel='stylesheet' type='text/css' href='container.css' />
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type='text/javascript' src='src-js/start_button.js'></script>
+		<script type='text/javascript' src='start_button.js'></script>
 	</head>
 	
 	<body>
-		<div id='bar'>
-			<ul id='nav'>
-				<li><a id='fir' href='#'>Home</a></li>
-				<li><a href='#'>Tutorials</a>
-					<ul>
-						<li><a href='#'>Texts</a></li>
-						<li><a href='#'>Videos</a></li>
-					</ul>
-				</li>
-				<li><a href='#'>Solved Problems</a></li>
-				<li><a href='#'>Recommended Problem</a></li>
-			</ul>
-		</div>
+		<?php include_once('nav_bar.html'); ?>
 		
 		<div id='container'>
 			<h2>If you dont know what competitive programming is click 'start' button</h2>

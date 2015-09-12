@@ -4,8 +4,8 @@
 	<head>
 		<title>CodeLove</title>
 		
-		<link rel='stylesheet' type='text/css' href='src-css/background.css' />
-		<link rel='stylesheet' type='text/css' href='src-css/admin_problem_explanation.css' />
+		<link rel='stylesheet' type='text/css' href='background.css' />
+		<link rel='stylesheet' type='text/css' href='admin_problem_explanation.css' />
 	</head>
 	
 	<body>
@@ -13,9 +13,10 @@
 			<form action='admin_solved_problems_insert.php' method='post'>
 				<label for='title'>Title</label> <input type='text' name='title' id='title' />
 				<label for='author'>Author</label> <input type='text' name='author' id='author' />
-				<label for='statement'>Statement</label> <textarea id='statement'></textarea>
-				<label for='explanation'>Explanation</label> <textarea id='explanation'></textarea>
-				<label for='solution_code'>Solution Code</label> <textarea id='solution_code'></textarea>
+				<label for='statement'>Statement</label> <textarea name='statement' id='statement'></textarea>
+				<label for='explanation'>Explanation</label> <textarea name='explanation' id='explanation'></textarea>
+				<label for='solution_code'>Solution Code</label> <textarea name='solution_code' id='solution_code'></textarea>
+				<label for='category'>Tag</label> <input type='text' name='category' id='category' />
 				<input type='submit' value='Publish' />
 			</form>
 		</div>

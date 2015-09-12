@@ -1,0 +1,93 @@
+div#sovled_problem_list
+{
+	position: absolute;
+	top: 10%;
+	left: 37%;
+}
+
+
+table.category_list
+{
+	position: relative;
+	
+	margin-bottom: 40px;
+	border-collapse: collapse;
+}
+
+
+.category_list th
+{
+	background-color: #CC9933;
+	
+	width: 100px;
+	padding: 10px;
+	font-size: 15px;
+}
+
+
+.category_list td
+{
+	padding: 10px;
+}
+
+
+td.fir
+{
+	background-color: #A8A8A8;
+}
+
+
+td.sec
+{
+	background-color: #C0C0C0;
+}
+
+
+td a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+ul#problem_list
+{
+	position: absolute;
+	
+	top: 15%;
+	left: 40%;
+}
+
+
+#problem_list li
+{
+	color: #FFCC99;
+	list-style-type: lower-roman;
+	padding-bottom: 25px;
+}
+
+
+#problem_list li a
+{
+	color: #FFCC99;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+div#solution
+{
+	position: absolute;
+	
+	top: 10%;
+	left: 35%;
+}
+
+
+#solution div
+{
+	position: relative;
+	margin-bottom: 10px;
+	
+	border: 1px solid black;
+}
